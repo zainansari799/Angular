@@ -1,0 +1,42 @@
+@import 'app/app.component.scss';
+@import 'app/header/header.component.scss';
+@import 'app/footer/footer.component.scss';
+@import 'app/side-bar/side-bar.component.scss';
+
+*{ font-family: 'Lato', sans-serif; text-decoration:none; padding:0px; margin:0px; line-height:normal; outline:none; box-shadow:none; list-style:none;}
+
+p.head{
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+.box{
+  width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  box-shadow: 2px 2px 10px #ccc;
+  padding: 25px;
+}
+  
+.box div {
+  display: block;
+  margin-bottom: 15px;
+}
+.box label{
+  display: block;
+  margin-bottom: 5px;
+  float: left;
+}
+.box input{
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 390px;
+  display: block;
+}
+.content {
+  margin: 80px 0 80px 280px;
+  h2{
+    margin-bottom: 20px;
+  }
+}

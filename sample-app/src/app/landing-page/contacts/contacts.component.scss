@@ -1,0 +1,20 @@
+h4 {
+    color: #666666;
+    margin: 10px auto;
+    i {
+        font-size: 22px;
+        width: 50px;
+        vertical-align: middle;
+        text-align: center;
+    }
+    &:nth-child(1) i{
+        color: #000;
+    }
+    &:nth-child(2) i {
+        color: #337fb2;
+        font-size: 16px;
+    }
+    &:nth-child(3) i {
+        color: #00aff0;
+    }
+}

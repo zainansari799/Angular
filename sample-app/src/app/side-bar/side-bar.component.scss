@@ -1,0 +1,40 @@
+app-side-bar{
+    display: block;
+    width: 260px;
+    background: #fff;
+    height: auto;
+    box-shadow: 1px 5px 10px #ccc;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    overflow-y: auto;
+    &::-webkit-scrollbar{
+        width: 5px; background: transparent;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: #8a9a9e  ; border-radius:5px;
+    }
+    h2 {
+        font-size: 20px;
+        padding: 10px;
+        color: #007eff;
+        font-weight: 400;
+    }
+    ul{
+        li {
+            font-size: 16px;
+            font-weight: 600;
+            border-bottom: 1px solid #ccc;
+            a{
+                color: #666;
+                font-weight: 500;
+                display: block;
+                padding: 10px 10px 10px 25px;
+                &.active{
+                    color: #007eff;
+                }
+            }
+        }
+    }
+}
